@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  #navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #navigation li {
+    margin-right: 15px;
+  }
+  
+  #navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Ajout d'une transition pour la couleur du texte */
+  }
+  
+  #navigation a:hover {
+    color: #ff9900; /* Couleur du texte au survol */
+  }
+  

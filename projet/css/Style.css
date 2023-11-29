@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color:black;
+    background-position: fixed;
+}
+#img{
+    text-align: center;
+}
+#img:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: transform 0.3s ease;
+    transform: scale(1.2)
+}
+#tete{
+    background-color: black;
+    color: yellow;
+    margin-bottom: auto;
+    border-radius: 20px;
+}
+#Footer{
+    
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+#corps{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#corps1{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#corps1:hover{
+    background-color: black;
+    opacity: 0.7;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+#text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+}
+#text:hover{
+    background-color: black;
+    transition: transform 0.3s ease;
+    transform: scale(1.2)
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: yellow;
+}
+b{
+    color: white;
+    transition: transform 0.3s ease;
+    transform: scale(1.2)
+}
+a:hover{
+    color: grey;
+    transition: transform 0.3s ease;
+    transform: scale(1.2)
+}
+#grey{
+    color: grey;
+}
+
+#navigation {
+    width: 100%;
+}
+
+#navigation ul {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content : space-around;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navigation a {
+    text-decoration:none;
+    text-shadow: 1px 1px 2px;
+}
+#Galerie{
+    color: white;
+    text-decoration: underline;
+}
+#tab{
+    display: flex;
+    flex-direction: column;
+}
+#tab:hover{
+    background-color: black;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+p{
+    text-align: center;
+}
+@media screen and (max-width:640px) {
+    #navigation ul{
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    #corps{
+        font-size: 10px;
+    }
+    #Footer{
+        font-size: 10px;
+    }
+    body{
+        height: 50%;
+    }
+}
+#carte{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+  
